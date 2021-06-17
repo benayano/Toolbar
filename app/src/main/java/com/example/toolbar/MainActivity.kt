@@ -13,6 +13,7 @@ class MainActivity : AppCompatActivity() {
         val thisId =findViewById<TextView>(R.id.this_Id)
         thisId.setOnClickListener {
             Toast.makeText(this,"kjjjjjjjjjjjjjjjjj",Toast.LENGTH_LONG).show()
+            Toast.makeText(this,"this 1111111111111111 test",Toast.LENGTH_LONG).show()
         }
     }
 }
